@@ -1,0 +1,16 @@
+<res>
+   <item name="res/Assets/Zombie_Green.jpg" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="res/Assets/character_shadow.png" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="res/Assets/Zombie_Police02.jpg" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="res/Assets/Zombie_Police_Equip.png" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="res/Assets/Scene/DesertPatch4/Barracks_a.jpg" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="res/Assets/Scene/DesertPatch4/DesertPath1.jpg" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="res/Assets/Scene/DesertPatch4/Mud_Hut.jpg" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="res/Assets/Scene/DesertPatch4/Palm_Tree.jpg" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="res/Assets/Scene/DesertPatch4/Road_Dirt.jpg" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="res/Assets/Scene/DesertPatch4/Tent.jpg" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="res/Assets/Zombies 4.3.8/Crossbow_Bullet/property.png" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="res/Assets/Zombies 4.3.8/Human/Everyman.png" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="res/Assets/Zombies 4.3.8/Human/character_shadow.png" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="res/Assets/Zombies 4.3.8/WoodBox/property.png" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+</res>
