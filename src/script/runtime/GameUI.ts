@@ -144,10 +144,10 @@ export default class GameUI extends ui.test.TestSceneUI {
         this.playerAni.play();
         Laya.timer.frameLoop(1, this, () => {
             // create zombies
-            // if (this._zombie && cnt++ % 60 === 0 && this.zombieId < 10) {
-            //     this.createZombie();
-            //     this.zombieId++;
-            // }
+            if (this._zombie && cnt++ % 60 === 0 && this.zombieId < 10) {
+                this.createZombie();
+                this.zombieId++;
+            }
 
             // play shooting animation
             this.shootTime--;
@@ -162,7 +162,8 @@ export default class GameUI extends ui.test.TestSceneUI {
     private createZombie() {
         let zombie: Laya.MeshSprite3D = this._zombie.clone();
         this.scene3D.addChild(zombie);
-        zombie.getComponent(Laya.Rigidbody3D).isKinematic = true;
+        zombie.getComponent(Laya.Rigidbody3D).isKinematic = false;
+        zombie.getChildAt(0).getComponent(Laya.Rigidbody3D).isKinematic = false;
 
         // add zombie body script
         zombie.addComponent(Zombie);

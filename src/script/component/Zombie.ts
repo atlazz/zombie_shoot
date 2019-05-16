@@ -61,6 +61,7 @@ export default class Zombie extends Laya.Script3D {
                     this.zombie.removeSelf();
                 });
             }
+            console.log(this.zombie.transform.localPositionY)
         }
     }
 
@@ -97,5 +98,7 @@ export default class Zombie extends Laya.Script3D {
 
         // reset
         this.isAttacked = false;
+
+        // this.zombie.transform.localPositionY = -0.010008610317566946
     }
 }
